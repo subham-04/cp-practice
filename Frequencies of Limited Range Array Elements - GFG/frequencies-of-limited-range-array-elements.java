@@ -53,13 +53,10 @@ class Solution{
         for(int i=1; i<=N; i++){
              int val = map.getOrDefault(i, 0);
              
-            if (i <= N) {
+           
                 arr[i - 1] = val;
                 
-            }
-            else{
-                 arr[i - 1] = 0;
-            }
+           
         }
         
         
